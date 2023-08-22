@@ -44,5 +44,5 @@ const store = configureStore({
 });
 
 export const counterActions = counterSlice.actions; //to dispatch actions
-export const authAuctions = authSlice.actions;
+export const authActions = authSlice.actions;
 export default store;
